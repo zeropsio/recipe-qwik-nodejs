@@ -1,0 +1,19 @@
+zerops:
+  - setup: app
+    build:
+      base: nodejs@20
+      buildCommands:
+        - pnpm i
+        - pnpm run build
+      deployFiles:
+        - dist
+        - package.json
+        - node_modules
+        - public
+        - server
+    run:
+      base: nodejs@20
+      ports:
+        - port: 3000
+          httpSupport: true
+      start: pnpm start

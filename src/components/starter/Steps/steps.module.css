@@ -1,0 +1,55 @@
+.copybtn {
+  transition: 300ms;
+}
+
+.primarybutton {
+  background-color: #006ce9;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  font-weight: 500;
+  color: #fff;
+  transition: 0.1s;
+}
+
+.primarybutton:hover {
+  background-color: #065cc0;
+}
+
+.zeropsbutton {
+  background-color: #065cc0;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  font-weight: 500;
+  color: #ffffff;
+  transition: 300ms;
+}
+.zeropsbutton:hover {
+  background-color: #0364d5;
+}
+
+.discordbutton {
+  background-color: #0364d5;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  font-weight: 500;
+  color: #fff;
+  transition: 300ms;
+}
+
+.discordbutton:hover {
+  background-color: #006ce9;
+}
+
+.link {
+  color: #d2d7fc;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
