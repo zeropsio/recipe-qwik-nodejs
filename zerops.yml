@@ -6,9 +6,7 @@ zerops:
         - pnpm i
         - pnpm run build
       deployFiles:
-        - dist
         - package.json
-        - node_modules
         - public
         - server
     run:
@@ -16,7 +14,7 @@ zerops:
       ports:
         - port: 3000
           httpSupport: true
-      start: pnpm start
+      start: pnpm serve
 
   # you can ignore this, it's used
   # for a version of recipe with
