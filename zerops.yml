@@ -9,6 +9,7 @@ zerops:
         - package.json
         - public
         - server
+        - dist
     run:
       base: nodejs@20
       ports:
